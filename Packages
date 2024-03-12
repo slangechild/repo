@@ -1,3 +1,148 @@
+Package: com.dcproducts.iossecuritysuitebypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Derek Calabro
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dcproducts.iossecuritysuitebypass_v1.0.0_iphoneos-arm64.deb
+Size: 2508
+MD5sum: 3ef90ef91bca136ef5f92cb9f4706da4
+SHA1: 806a6ad9cea47a09c6c8dc92a2798ce619dd5f19
+SHA256: 78523cbbb67a11043be7238c2ca535f8e8835d7244096d8c8a729fca3139a825
+Section: Tweaks
+Description: A bypass for the iOSSecuritySuite Swift library.
+Author: Derek Calabro
+Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.iossecuritysuitebypass
+Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.iossecuritysuitebypass/icon.png
+Name: iOSSecuritySuiteBypass
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.iossecuritysuitebypass/depiction.json
+
+Package: com.kdt.trollpad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: khanhduytran0
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.kdt.trollpad_v1.0_iphoneos-arm64.deb
+Size: 2814
+MD5sum: 1a269209277e846889ed5cc26455212c
+SHA1: 579eee031aae0b6509d81c09a3486da8b153175d
+SHA256: 1e3242908617c021e7b40ee9d4e899168629bddcbf2d3be7d64002e57932c02d
+Section: Tweaks
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Author: khanhduytran0
+Name: TrollPad
+
+Package: com.zx02.frame.rootless
+Version: 3.0.1
+Architecture: iphoneos-arm64
+Maintainer: Zerui Chen
+Installed-Size: 4284
+Depends: mobilesubstrate,firmware (>= 13.9.9)
+Conflicts: com.zx02.frame.ios13,com.zx02.frame.ios14
+Filename: ./debs/com.zx02.frame.rootless_v3.0.1_iphoneos-arm64.deb
+Size: 2338512
+MD5sum: 194929cc7b9f517e02243bc08c982c2f
+SHA1: 61d53417742a6d7c62868cf207f10a0771254265
+SHA256: ac667f23e41af57d2d69a2cc2efec592deaf4773aa0c6fb3c146fcebdbc795b2
+Section: Tweaks
+Description: Bring your iDevice to life with true video wallpapers.
+Author: Zerui Chen
+Name: Frame (Rootless iOS 14+)
+
+Package: net.limneos.voicechangerx-rootless
+Version: 2.4-3
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1420
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/net.limneos.voicechangerx-rootless_v2.4-3_iphoneos-arm64.deb
+Size: 244546
+MD5sum: 479497ffafdf974b2b7fb3d6789bb490
+SHA1: e984b5ec1b7341bf0167af79b084e4e436382a9a
+SHA256: 495b3bf2cc174250e6b3a86df65764f16b2c3586cb9207cb1b1aeb55d48bb58e
+Section: Tweaks
+Description: Change your voice during a call!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.voicechangerx
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Mainlibmd5: 8131809d9825837c841f8f54015f50b4
+Name: VoiceChanger XS (rootless) (iOS 11 to 16)
+
+Package: xyz.cypwn.eneko
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/xyz.cypwn.eneko_v1.4_iphoneos-arm64.deb
+Size: 48776
+MD5sum: 637cd4d81145f279256fdb434fd98f4d
+SHA1: e43d69125e6fa1b8b160e4dbad3627ff3d55bea9
+SHA256: 8663d22b493031f3245b5c7aaa46b396726dc444600c31044623f35a4cbf04c3
+Section: Tweaks
+Description: Live wallpapers for iOS
+Author: Traurige <hello@traurige.dev>
+Depiction: https://repo.cypwn.xyz/depiction/1711
+Name: Eneko
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1711
+
+Package: xyz.cypwn.erika
+Version: 1.13.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/xyz.cypwn.erika_v1.13.3_iphoneos-arm64.deb
+Size: 128520
+MD5sum: 32d28c8e77673d59429c107b0bca9946
+SHA1: d095f6ccbb3879b298c1ef9f6324d67c441a5ba9
+SHA256: 04b3eb33c004dec7a740dc66e677df11e36cb13b531871d948f8a645257fc1cb
+Section: Tweaks
+Description: Piracy downloader for Saily, Sileo, and Zebra
+Author: Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/1966
+Icon: https://paisseon.github.io/icons/Erika.png
+Name: Erika
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1966
+
+Package: xyz.cypwn.lastlook
+Version: 3.6.5
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/xyz.cypwn.lastlook_v3.6.5_iphoneos-arm64.deb
+Size: 500984
+MD5sum: 4b16fed4daab1bd1778d94c5de3b56be
+SHA1: 33b67fc3ca18222b91864cd8d64c70574412d909
+SHA256: 1668a8f62a4d5b55e25c991a44497ab93acab972e44f24eba243411327c9b660
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!
+Author: AnthoPak
+Depiction: https://repo.cypwn.xyz/depiction/1275
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1275
+
+Package: xyz.cypwn.satella
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/xyz.cypwn.satella_v1.9.0_iphoneos-arm64.deb
+Size: 111898
+MD5sum: 9b58de75e508ce5c30df768bd4560c0d
+SHA1: 5c37c778171348d1dcde9cac01354162c3915b40
+SHA256: c84dd9f18e193f70f1f5115aa5570d26871f5e15151d9d649994239d8f7fa676
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/1570
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1570
 Package: com.opa334.choicy
 Version: 1.4.10-3
 Architecture: iphoneos-arm64
