@@ -1,3 +1,99 @@
+Package: dpkg-dev
+Version: 1.22.0
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1808
+Depends: dpkg (= 1.22.0), libdpkg-perl (= 1.22.0)
+Filename: ./debs/dpkg-dev_v1.22.0_iphoneos-arm64.deb
+Size: 1082952
+MD5sum: bdfbaeb1596296aa922419aa61776c86
+SHA1: dfe8ccd1de9eeeca9325adf593e7fc3aa1ffe975
+SHA256: 1f1af71a2ebdfaf860cad5a4a3dd68ea03b1fab6bc24a60fa7c45326dedde004
+Section: Packaging
+Priority: optional
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Debian package development tools
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/me.lau.atria_v1.4.1_iphoneos-arm64.deb
+Size: 236990
+MD5sum: 0ddd2bd09fe99cdbfbc14ef11c03f463
+SHA1: 6ac4631697e08a7bd4a24475dc80027f5cd5966c
+SHA256: 43b8515cda84b44d6cabea98704c1dda155d38a3235c9048795fb19b5381571f
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
+
+Package: ws.hbang.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.hbang.newterm3_v3.0~beta1_iphoneos-arm64.deb
+Size: 3836904
+MD5sum: fed66db963cb17131b239dc6deb7058c
+SHA1: 4c9327fb9cd3ccdade8247bab90bcf12338b6be2
+SHA256: cbd965fbdc25634e4e447ba4609598a67a0f354a63fce2dbf9e0dce99042b055
+Section: Terminal Support
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Support: https://hashbang.productions/support/
+
+Package: xyz.cypwn.respring
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/xyz.cypwn.respring_v1.0_iphoneos-arm64.deb
+Size: 1633818
+MD5sum: dd17c31e3cc032d63a038e966624f5c6
+SHA1: 08074518f3f78cbf082d1a90412e0e550c94672e
+SHA256: 42f43a66c94d4363453b55ad04a92961833b5abb54f938b43bacf861a833ec28
+Section: Tweaks
+Description: ReSpring your way. Anytime, Everywhere.
+Author: pkgFiles
+Depiction: https://repo.cypwn.xyz/depiction/1885
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/respring.png
+Name: ReSpring
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1885
+
+Package: xyz.cypwn.stella
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (>= 13.0), ws.hbang.common (>= 1.2)
+Filename: ./debs/xyz.cypwn.stella_v1.0.4_iphoneos-arm64.deb
+Size: 683608
+MD5sum: 5c7eaaaacc0ccc9488807bc5a37ed992
+SHA1: 5cd2d6a2fb910018e25f4a57293709a01011be05
+SHA256: e0d084928a23ee11163e6e9f71e9f1ce6d54855e0ab5ed473fb96a28e21b6f34
+Section: Tweaks
+Description: Let it snow on your device
+Author: yan
+Depiction: https://repo.cypwn.xyz/depiction/1725
+Icon: https://yandevelop.github.io/assets/icons/stella/icon.png
+Name: Stella
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1725
+
 Package: com.dcproducts.iossecuritysuitebypass
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -288,25 +384,6 @@ Icon: https://paisseon.github.io/icons/Satella.png
 Name: Satella
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1570
 
-Package: xyz.cypwn.stella
-Version: 1.0.4
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, firmware (>= 13.0), ws.hbang.common (>= 1.2)
-Filename: ./debs/xyz.cypwn.stella_1.0.4_iphoneos-arm64e.deb
-Size: 673304
-MD5sum: bbbf92dfe53a9f995954be22ca204f71
-SHA1: 9587804779b15f664a390469ba4effe86dc92c0e
-SHA256: 9f1622b9377df7e7b6aa81e518a3a970a233b20452e640896712f9edf9107bac
-Section: Tweaks
-Description: Let it snow on your device
-Author: yan
-Depiction: https://repo.cypwn.xyz/depiction/1725
-Icon: https://yandevelop.github.io/assets/icons/stella/icon.png
-Name: Stella
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1725
-
 Package: xyz.cypwn.theos
 Version: 2.5
 Architecture: iphoneos-arm64
@@ -324,4 +401,3 @@ Depiction: https://repo.cypwn.xyz/depiction/2060
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/theos.png
 Name: Theos
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2060
-
