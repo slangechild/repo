@@ -1,3 +1,145 @@
+Package: com.opa334.crane
+Version: 1.3.14-4
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 3108
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_v1.3.14-4_iphoneos-arm64.deb
+Size: 563928
+MD5sum: a8667a026d9b039d5536919ab0d2b175
+SHA1: 4a7e2794ba9095d51905b5826fb3ed7c3ff92e85
+SHA256: 73a02a31954010681dd5689d9ee10a4df2ab6671e3e2a6e6160bec2c9ca1ac02
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
+
+Package: com.ps.cahighfps
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.ps.cahighfps_v1.3.1_iphoneos-arm64.deb
+Size: 5430
+MD5sum: c5eb1db2add17dd43645c876503e1607
+SHA1: 0ee1f009a5459442bc1969522eada3253ea9a052
+SHA256: 11ef66d9807a24e6bd5aae1793cfffb1bb447999e7092f845b136b979831926f
+Section: Tweaks
+Description: Make CoreAnimation apps use the highest available FPS.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
+Name: CAHighFPS
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
+
+Package: com.pwnd2e.snapper3
+Version: 1.0k
+Architecture: iphoneos-arm64
+Maintainer: pwnd2e
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
+Filename: ./debs/com.pwnd2e.snapper3_v1.0k_iphoneos-arm64.deb
+Size: 910984
+MD5sum: 7c0f57c34a6fe8c14ebe38d37fc4fef8
+SHA1: c2b6ede67e4d5edb14e336a261b5abcefee567b4
+SHA256: c8fcb25b2c310754942647951d09418eb99d734a0f307643e61295b144f2ad23
+Section: Tweaks
+Description: Pin screenshots on the screen. K'd by CBZ.
+Author: Jonathan Winger-lang
+Depiction: pwnd2e
+Name: Snapper 3
+
+Package: ellekit
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/ellekit_v1.1.2_iphoneos-arm64.deb
+Size: 338072
+MD5sum: e30ca0ec5fc2b966602a44c0a867c135
+SHA1: 9ccddc4ede9dc8b8107a77be3c62129fd3ab02c1
+SHA256: 4aa9e502d42c1e7cdb5a7a1a5ff63ba9b4bc2899b63a2f48d904d13c926179b2
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: xyz.cypwn.alpine
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/xyz.cypwn.alpine_v1.4_iphoneos-arm64.deb
+Size: 674934
+MD5sum: 7400e25f0eb5d5a7fd725acf95d54674
+SHA1: 6ea332cf19a9642698ed6c82c9881ce70cf198f9
+SHA256: d937e66c7e5fc151d3ecf1e7caf554bb0b7cdc9c1e9e9d42b018d67f965842a5
+Section: Tweaks
+Description: tvOS alerts for iOS
+Author: MTAC
+Depiction: https://repo.cypwn.xyz/depiction/1878
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
+Name: Alpine
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1878
+
+Package: xyz.cypwn.no2theft16
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: ws.hbang.common
+Filename: ./debs/xyz.cypwn.no2theft16_v1.1_iphoneos-arm64.deb
+Size: 1118642
+MD5sum: ca85273acfb9741e333e95a102e33ebb
+SHA1: 3a19a133d1a52c8e9674effe847ffc6ed220c64d
+SHA256: 43115d0ed6831413d2187c01da08c33aadf3e9b2ab01fd0e66743a35558da02b
+Section: Tweaks
+Description: The most complete tweak against pranksters, annoying nosy people and thieves
+Author: elias
+Depiction: https://repo.cypwn.xyz/depiction/2063
+Icon: https://media.havoc.app/65dfc278aade10692ec51d5f
+Name: No2Theft iOS 16
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2063
+
+Package: xyz.cypwn.picsartcrack
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/xyz.cypwn.picsartcrack_v1.0_iphoneos-arm64.deb
+Size: 15032
+MD5sum: 35a106fa4b167310756a392027a25d5b
+SHA1: f99875e9995e0bca09d4d140b937368417c9f3c7
+SHA256: 14102155ac494dca3301581e35d2980ee1e3829376d45df36b10724564b3b16d
+Section: Cracks
+Description: Picsart Gold for free
+Author: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/1766
+Name: Picsart Crack
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1766
+
+Package: xyz.cypwn.sushi
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/xyz.cypwn.sushi_v1.0.1_iphoneos-arm64.deb
+Size: 184262
+MD5sum: af5123aefdd79b7cd1bdf8ac3f0f2524
+SHA1: 95e86824451aa82d6d8a8014308350b7a5aa8333
+SHA256: 0440d900861de694117fe3b28224603a70a9feb293dea4c74def3c1923bd99f1
+Section: Tweaks
+Description: Now playing banner with integrated media controls!
+Author: Skitty
+Depiction: https://repo.cypwn.xyz/depiction/2099
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
+Name: Sushi
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2099
+
 Package: dpkg-dev
 Version: 1.22.0
 Architecture: iphoneos-arm64
