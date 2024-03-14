@@ -1,3 +1,124 @@
+Package: com.llld.runerootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.llld.runerootless_v0.0.1_iphoneos-arm64.deb
+Size: 9516
+MD5sum: 0ad57ec30b5a0ae92e9235f39bafcaca
+SHA1: 69638445b9f88f13b25f179955272b56af7e65b5
+SHA256: 7f2728e94854c1da461f7df9e1e09940e3b9d3ab487e3c2fa4a185391a666137
+Section: rootless汉化补丁
+Description: Rune汉化--(rootless)简体中文包
+Author: 来了老弟 h_h_x_t
+Name: Rune汉化包-rootless
+
+Package: com.misakaproject.macaron
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Misaka Project
+Installed-Size: 792
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common
+Filename: ./debs/com.misakaproject.macaron_v1.0.1_iphoneos-arm64.deb
+Size: 409684
+MD5sum: d9821b34a082d1b29b22c4e9b7ce1e18
+SHA1: 6109d0c9c74df98c7968d237ea4a8dae7835e975
+SHA256: 431178d8d9aec448eb14f74a884bc12d3326ba00743a5dff37fd4f46baa21cf2
+Section: Tweaks
+Description: Displays a photo in the background of the dock for iOS15.
+Author: Misaka Project
+Icon: https://cdn.discordapp.com/attachments/1114977950245322865/1127915035776274522/icon3x.png
+Name: Macaron
+
+Package: jp.r-plus.anykeytrackpad
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: r_plus
+Installed-Size: 176
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/jp.r-plus.anykeytrackpad_v1.1.1_iphoneos-arm64.deb
+Size: 6716
+MD5sum: c59d74aa28e2252b44cde4afdcb0ae06
+SHA1: 7633f94d8484e6c4bdebdc91f18d83103f2a2f24
+SHA256: 502c82167649a7ddc24fca86c5f679667da17efbddbabb36ef69535d71285510
+Section: Tweaks
+Description: Enter trackpad mode by long press anykey
+Author: r_plus
+Icon: file:///Library/PreferenceLoader/Preferences/AnyKeyTrackpad@2x.png
+Name: AnyKeyTrackpad
+
+Package: net.sourceloc.pinanim
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: sourcelocation
+Installed-Size: 604
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/net.sourceloc.pinanim_v2.0_iphoneos-arm64.deb
+Size: 77214
+MD5sum: 755dd01dd0dde32ac06fde4b2de2e68d
+SHA1: 0459ea5f4c5b5a5d58987b353e06896ef720efaa
+SHA256: 1f5e8da87fbb6144c431ce3b77d56c574050962b8fd5d7796470130505d1e4b1
+Section: Tweaks
+Description: Animations for Pin dots
+Author: sourcelocation
+Name: PinAnim
+
+Package: xyz.cypwn.appdata
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.cypwn.appdata_v1.4.1_iphoneos-arm64.deb
+Size: 7401142
+MD5sum: f25bee2a33498684fa289e341c720464
+SHA1: 794ae15956bbe910db0bbfe294d828121848f1f5
+SHA256: f505086b977c850eb58c328a12e5523e07e9ae000cc34277d0f9be1fba04cd9d
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Depiction: https://repo.cypwn.xyz/depiction/1392
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/appdata.png
+Name: AppData
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1392
+
+Package: xyz.cypwn.batterybuddy
+Version: 1.3.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 432
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/xyz.cypwn.batterybuddy_v1.3.4_iphoneos-arm64.deb
+Size: 57398
+MD5sum: 3a892499b06cc84f93b3bc6ed720c6e6
+SHA1: 45fc577367eab144af7be0f1228f814ae7fdd18a
+SHA256: 2081d0f4c3587b77397ee86170c2f8953052860d2546f621de4b81410ee7da3a
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Depiction: https://repo.cypwn.xyz/depiction/1465
+Name: BatteryBuddy
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1465
+
+Package: xyz.cypwn.everest
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17), emt.paisseon.xinamine (>= 0.0.5)
+Filename: ./debs/xyz.cypwn.everest_v1.0.0_iphoneos-arm64.deb
+Size: 481958
+MD5sum: 3f23fddc7cb09fa569d8dbbf86471363
+SHA1: a633c9d94f631344ebb41df59bffd07314c5eea5
+SHA256: 0119bfb44e9f7bc297b6753678a2ff709a9c262959351a1f2eb266881ee1ef9d
+Section: Tweaks
+Description: App icon animations
+Author: Christopher Anderson
+Depiction: https://repo.cypwn.xyz/depiction/1264
+Icon: https://media.havoc.app/642b56289fda5c6310b11898
+Name: Everest
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1264
+
 Package: com.opa334.crane
 Version: 1.3.14-4
 Architecture: iphoneos-arm64
