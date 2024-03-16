@@ -1,3 +1,97 @@
+Package: com.ichitaso.hideserialnumber
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 416
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: ./debs/com.ichitaso.hideserialnumber_v0.0.3_iphoneos-arm64.deb
+Size: 46990
+MD5sum: 8c5be46b993d4953221b28962d4e716e
+SHA1: fe817609b961d8bd1b1aa6258e53879acd175a48
+SHA256: 140e096f96a93ab038cff4ba6c7aa6f13182964fa0a476223c6e2eeea593b3fd
+Section: Tweaks
+Homepage: https://cydia.ichitaso.com/depiction/hidesn.html
+Description: Hide Serial Number in Settings About page.
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/hidesn.html
+Dev: ichitaso
+Icon: https://i.imgur.com/uFWkBXD.png
+Name: HideSerialNumber
+Sileodepiction: https://cydia.ichitaso.com/depiction/hidesn.json
+
+Package: com.now.mooner
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: NoW
+Installed-Size: 608
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), preferenceloader
+Filename: ./debs/com.now.mooner_v1.0.1_iphoneos-arm64.deb
+Size: 93296
+MD5sum: 2bc5d22ac6c9e38cf627040dff61176b
+SHA1: 67a34452b9c8254c021595a8375c08d12a2723fa
+SHA256: d33c54405314f83bb1dac8379dbb4bea028f9e181dd85cc1aa47591aecc602f8
+Section: Tweaks
+Description: The moon moons on you from its perch in the night sky...
+Author: NoW
+Icon: https://nowisdev.github.io/icons/Mooner.png
+Name: Mooner
+
+Package: lavo.codm
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Lavo
+Installed-Size: 992
+Depends: ellekit
+Filename: ./debs/lavo.codm_1.3_iphoneos-arm64.deb
+Size: 428174
+MD5sum: d74b85df85d0104c4a970d5742496e20
+SHA1: 1b8d72fd46618f5eac6e3659c11273a784367f70
+SHA256: 53097cd23c2c27c41fbd0b75db004979ff74eadcc62ec0a19d1c44d536a051e5
+Section: Tweaks
+Description: Mod Menu Cod
+Author: Lavochka
+Name: Lavo cod
+
+Package: lavo.ff
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Lavo
+Installed-Size: 996
+Depends: ellekit
+Filename: ./debs/lavo.ff_1.3_iphoneos-arm64.deb
+Size: 428352
+MD5sum: 137e5beb7f60aef55b78bee8b1b001fd
+SHA1: 16a27e58ac26595a9ac84ca27252bba8782a59bf
+SHA256: df6b1659b5e67f08406be13c698f6fd018aefc074360b6508938c46fb22a38b4
+Section: Tweaks
+Description: Mod Menu ff
+Author: Lavochka
+Name: Lavo ff
+
+Package: neofetch
+Version: 7.1.0+20220216.ccd5d9f
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 384
+Depends: bash (>= 5.0), awk
+Conflicts: com.matdev.neofetch-ios
+Replaces: com.matdev.neofetch-ios
+Filename: ./debs/neofetch_v7.1.0+20220216.ccd5d9f_iphoneos-arm64.deb
+Size: 91140
+MD5sum: e16c0b72b84b16036a48b5d50e6509d0
+SHA1: c1d76dbf5ca16f855c279de02149d971c5d6d867
+SHA256: c644bfff3c9d2f338c4327fe89d393df4b3688a1f2c3a4aa31434e32fb30b3b5
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows System Information with Distribution Logo
+ Neoftech is a cross-platform and easy-to-use system information
+ command line script that collects your system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+Author: Dylan Araps <dylan.araps@gmail.com>
+
 Package: com.llld.runerootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
