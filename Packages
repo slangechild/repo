@@ -1,3 +1,41 @@
+Package: com.spark.snowboard
+Version: 1.5.26-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3236
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_v1.5.26-Beta4-rootless_iphoneos-arm64.deb
+Size: 1120268
+MD5sum: 9109ec3d0b2bca55154f15610c8b61ba
+SHA1: 1548df152c15da2d898f19e618fb6af4bdee5d85
+SHA256: 2857efc003bf3c2def3119ea1b45f25b86eb57c8bf6f3b8d12c822e976608a51
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: xyz.cypwn.eneko
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/xyz.cypwn.eneko_v1.4_iphoneos-arm64.deb
+Size: 48776
+MD5sum: 637cd4d81145f279256fdb434fd98f4d
+SHA1: e43d69125e6fa1b8b160e4dbad3627ff3d55bea9
+SHA256: 8663d22b493031f3245b5c7aaa46b396726dc444600c31044623f35a4cbf04c3
+Section: Tweaks
+Description: Live wallpapers for iOS
+Author: Traurige <hello@traurige.dev>
+Depiction: https://repo.cypwn.xyz/depiction/1711
+Name: Eneko
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1711
+
 Package: bluefinder
 Version: 1.1.3
 Architecture: iphoneos-arm64
