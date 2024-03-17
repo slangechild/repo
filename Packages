@@ -1,3 +1,53 @@
+Package: com.ghh.gravitation
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Ghh
+Installed-Size: 1264
+Depends: ellekit
+Filename: ./debs/com.ghh.gravitation_v1.1_iphoneos-arm64.deb
+Size: 124856
+MD5sum: e52423e163f99600572ab6715ed8047d
+SHA1: 026597e99b3c3ed04312a29a9da8f47b3859b3a4
+SHA256: 7422f0cda6034e48a5e9b2807a5013702b7f356c764191d99eace5624529bbae
+Section: Tweaks
+Description: Shake your phone to drop your icons! Analogue for gravity (by Julioverne)
+Author: Ghh
+Name: Gravitation
+
+Package: com.opa334.trollstorehelper
+Version: 2.0.13
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 4400
+Filename: ./debs/com.opa334.trollstorehelper_v2.0.13_iphoneos-arm64.deb
+Size: 1919730
+MD5sum: c34bd249e214d9f21a1868c67d6e1f01
+SHA1: 02cbfc8f0baebe5011b0dcd26d112e5e5461556a
+SHA256: 2657abdd561b055697df7e000ecf3438a24b5df567d5378bd1e54a4e0c9c0641
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
+Package: net.limneos.dynamicpeninsula-rootless
+Version: 0.6-25
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1684
+Depends: mobilesubstrate, preferenceloader, firmware(>=12.0)
+Filename: ./debs/net.limneos.dynamicpeninsula-rootless_v0.6-25_iphoneos-arm64.deb
+Size: 296808
+MD5sum: f7cacd3984e90976f0e1998fa26353dd
+SHA1: 95ff9084ad376dc7b4ec4b805fe9b785d2188ff4
+SHA256: 186c721d78ab902ca26747db825c0abf26a896a24af3a469764c24ea8ed1287f
+Section: Tweaks
+Description: Dynamic Island on your notch
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.dynamicpeninsula
+Mainlibmd5: 12fb8ae6a7b6448240b69c068e6b49d0
+Name: DynamicPeninsula (rootless)
+Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.dynamicpeninsula
+
 Package: com.spark.snowboard
 Version: 1.5.26-Beta4-rootless
 Architecture: iphoneos-arm64
