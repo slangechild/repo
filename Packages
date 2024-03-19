@@ -1,3 +1,80 @@
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/com.creaturecoding.shuffle_v1.6.2_iphoneos-arm64.deb
+Size: 254336
+MD5sum: 12127d0a67f0fe733fbb1f55d55fc9c4
+SHA1: 1fb8d8f4247ec44f7c61629e5f4ef455a682c4a0
+SHA256: 3ce996b98ecdb873527766b69d8b7b86cd959f1f7d3af5dc50d4cf56f0bbad15
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.ghh.jade
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ghh
+Installed-Size: 1275
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.ghh.jade_v1.0.1_iphoneos-arm64.deb
+Size: 283148
+MD5sum: 73e867cbce879f129827c01dd628443e
+SHA1: dba525ea18ecf6b272fb8e072219c44161d0d5b8
+SHA256: ca7fd9b069786718d6479e5040f167f0390cc5644962f773fd1731280a36dd25
+Section: Tweaks
+Description: Your control center, brought anew.
+Author: Nightwind Timeloop Ghh
+Icon: https://img.chariz.cloud/icon/jade/icon@3x.png
+Name: Jade
+
+Package: com.snail.always120
+Version: 1.1.3k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, xyz.cypwn.snail
+Filename: ./debs/com.snail.always120_v1.1.3k_iphoneos-arm64.deb
+Size: 215188
+MD5sum: 4b80ffcdcf14b2e9328ce8e8014f7990
+SHA1: cb059646211b1c1dc5b8b4fac5090768fb5bf4af
+SHA256: 6ca6796eacf95a406f0130ce23e6b817125b59fcbec41e506233c6df600077f1
+Section: Tweaks
+Description: Make iOS 15 ProMotion Devices auto-adapt/reach to 120Hz. Cracked by CBZ!
+Author: Snail
+Depiction: https://repo.cypwn.xyz/depiction/1936
+Icon: https://media.havoc.app/64ab7404d8f6312267aee7f5
+Name: Always120
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1936
+
+Package: xyz.cypwn.airpodscompanion
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: preferenceloader
+Filename: ./debs/xyz.cypwn.airpodscompanion_v1.2_iphoneos-arm64.deb
+Size: 511948
+MD5sum: 40a0e56ccb91b33fedc288c3b0f5629b
+SHA1: 387715af66b879032ea0871c4cd04042681880bb
+SHA256: 59b56e9b810f8181c722d78b761b4e35b4b4c61e41a154aa4ea2b773f21ee464
+Section: Tweaks
+Description: Floating Noise Cancellation control next to volume slider
+Author: Ethan Whited
+Depiction: https://repo.cypwn.xyz/depiction/2102
+Icon: https://media.havoc.app/65e4177bc97a362fa842d940?w=3840&amp;q=75
+Name: AirpodsCompanion
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2102
+
 Package: com.ghh.gravitation
 Version: 1.1
 Architecture: iphoneos-arm64
