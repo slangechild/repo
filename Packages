@@ -1,3 +1,80 @@
+Package: com.amywhile.aemulotrial
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2351
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulo
+Filename: ./debs/com.amywhile.aemulotrial_v1.2.4_iphoneos-arm64.deb
+Size: 608146
+MD5sum: 07dc137fe92a07fbb7c070c8ae3921ba
+SHA1: b8005604cca5d1a925c0046b564ca088bcb04732
+SHA256: 9e0b76b86e317f4d215ef75ff5ab067f0c723fc8b136f4a4ca7532b675c0ade1
+Section: Tweaks
+Description: NFC Frickery
+Tag: compatible_min::ios13.0
+Author: Amy While <support@anamy.gay>
+Depiction: https://chariz.com/get/aemulo-trial
+Icon: https://img.chariz.cloud/icon/aemulo-trial/icon@3x.png
+Name: Aemulo (Trial)
+
+Package: com.julioverne.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm64
+Maintainer: Julio
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.goodwifi_v0.0~beta6_iphoneos-arm64.deb
+Size: 40822
+MD5sum: a1001e8b942bd4870f4c5e55096ec28a
+SHA1: 79c9c4197f616a2b885ed496af43a437390d21a0
+SHA256: 6c329bfdb459abe3e7cb2f6dc7ccd6d5fb6607838864cf97193d70e96eed130c
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Better WiFi Preferences
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Icon: file:///var/jb/Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+
+Package: com.kingpuffdaddi.wifiqr
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.kingpuffdaddi.wifiqr_v1.1.1_iphoneos-arm64.deb
+Size: 26428
+MD5sum: 59573831be6f806db4bbcfc0d08d9244
+SHA1: 1d347696a2fcb6f5bc08cbd6224f59de7b717771
+SHA256: 785697c2477575e8c8ddec939541a8dfe13a2bc5a34f87058e37d20cdb4b3c85
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Description: Generate a QR code for WiFi networks directly from the settings
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Dev: kingpuffdaddi
+Name: WiFiQR
+
+Package: xyz.cypwn.jellyfish
+Version: 1.6.5
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1), firmware (>= 15.0)
+Filename: ./debs/xyz.cypwn.jellyfish_v1.6.5_iphoneos-arm64.deb
+Size: 115172
+MD5sum: c42a3debc92df7cb05b83a2b07c13e70
+SHA1: b0865a6a91cff77b15e336c6f9170ec1ceb23852
+SHA256: 2e2b1eb8cabaa1620afc1148d5f7d6daeef93c87cac141c69125868bc3aac9ce
+Section: Tweaks
+Description: Natural, Simple, Beautiful. Redesign your Lock screen with Jellyfish.
+Author: Justin Proulx and Ayden Panhuyzen
+Depiction: https://repo.cypwn.xyz/depiction/1461
+Icon: https://cdn.chariz.cloud/icon/jellyfish/icon@3x.png
+Name: Jellyfish
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1461
+
 Package: com.creaturecoding.shuffle
 Version: 1.6.2
 Architecture: iphoneos-arm64
